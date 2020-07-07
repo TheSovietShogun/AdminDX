@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_soporte"
+            android:icon="@drawable/ic_soporte"
+            android:title="Tickets" />
+        <item
+            android:id="@+id/nav_unidad"
+            android:icon="@drawable/ic_unidad"
+            android:title="Seguimiento" />
+        <item
+            android:id="@+id/nav_cerrar"
+            android:icon="@drawable/ic_call_missed_outgoing_black_24dp"
+            android:title="Salir" />
+    </group>
+
+
+</menu>
